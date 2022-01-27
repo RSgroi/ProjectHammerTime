@@ -1,13 +1,7 @@
 // ProjectHammerTime.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
 
-int main()
-{
-    std::cout << "Hello World!\n";
-
-//Using SDL and standard IO
 #include <SDL.h>
 #include <stdio.h>
 
@@ -38,6 +32,7 @@ int main(int argc, char* args[])
 		}
 		else
 		{
+			printf("Hello World!");
 			//Get window surface
 			screenSurface = SDL_GetWindowSurface(window);
 
@@ -48,7 +43,7 @@ int main(int argc, char* args[])
 			SDL_UpdateWindowSurface(window);
 
 			//Wait two seconds
-			SDL_Delay(2000);
+			SDL_Delay(18000);
 		}
 	}
 
