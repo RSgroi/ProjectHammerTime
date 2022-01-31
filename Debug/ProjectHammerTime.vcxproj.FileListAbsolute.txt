@@ -1,2 +1,0 @@
-C:\Users\Rob\source\repos\ProjectHammerTime\Debug\ProjectHammerTime.exe
-C:\Users\Rob\source\repos\ProjectHammerTime\Debug\ProjectHammerTime.pdb
